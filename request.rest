@@ -1,0 +1,32 @@
+GET http://localhost:2000/users
+
+###
+POST http://localhost:2000/users
+Content-Type: application/json
+
+{
+    "name":"test",
+    "email":"capstone2@gmail.com",
+    "password":"password12",
+    "age":"24",
+    "location":"jakarta"
+}
+
+
+###
+POST http://localhost:2000/login
+Content-Type: application/json
+
+{
+    "email":"testingcapstone@gmail.com",
+    "password":"password"
+}
+
+###
+GET http://localhost:2000/token
+
+
+
+
+
+
